@@ -14,6 +14,7 @@ import { Timer } from './scr/features/Timer';
 import { FocusHistory } from './scr/features/FocusHistory';
 
 export default function App() {
+  console.log('this is going to github');
   const [currentSubject, setCurrentSubject] = useState();
   const [history, setHistory] = useState([]);
   return (
